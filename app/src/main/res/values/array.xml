@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Id_activityScreenTitles">
+
+        <item></item>
+        <item>Dashboard</item>
+        <item>Company Ads</item>
+        <item>View Profile</item>
+        <item>Add prescription</item>
+        <item/>
+        <item>Log Out</item>
+    </string-array>
+    
+    <string-array name="Id_activityScreenIcons">
+        <item>@drawable/ic_baseline_arrow_back_24</item>
+        <item>@drawable/home_icon</item>
+        <item>@drawable/ads</item>
+        <item>@drawable/ic_view</item>
+        <item>@drawable/ic_add</item>
+        <item>0</item>
+        <item>@drawable/ic_logout</item>
+    </string-array>
+
+
+
+</resources>

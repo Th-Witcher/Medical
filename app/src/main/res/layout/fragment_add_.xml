@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Company.Add_Fragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:id="@+id/liner1"
+        android:gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp"
+            android:id="@+id/card1_company">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_image"
+                android:layout_gravity="center"
+                android:id="@+id/image1_company"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/liner1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <EditText
+                android:id="@+id/mname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/boarder_rosheth"
+                android:paddingLeft="5dp"
+                android:padding="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:background="#ffffff"
+                android:text="Medican Name"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+
+        <Spinner
+            android:id="@+id/Specialization_company"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/boarder_rosheth"
+            android:paddingLeft="15dp"
+            android:popupBackground="#7C89A8"
+            android:textColorHint="@color/black"
+            android:layout_marginRight="20dp"/>
+
+        <Spinner
+            android:id="@+id/city_company"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boarder_rosheth"
+            android:paddingLeft="15dp"
+            android:popupBackground="#7C89A8"
+            android:textColorHint="@color/black"
+            android:layout_marginRight="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <EditText
+                android:id="@+id/phnum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/boarder_rosheth"
+                android:paddingLeft="5dp"
+                android:padding="18dp"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="9dp"
+                android:background="#ffffff"
+                android:text="Phone Number"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <EditText
+                android:id="@+id/mmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/boarder_rosheth"
+                android:paddingLeft="5dp"
+                android:padding="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="19dp"
+                android:background="#ffffff"
+                android:text="Mail"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <EditText
+                android:id="@+id/coname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/boarder_rosheth"
+                android:paddingLeft="5dp"
+                android:padding="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="19dp"
+                android:background="#ffffff"
+                android:text="Company Name"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="70dp">
+            <EditText
+                android:id="@+id/cdisc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/boarder_rosheth"
+                android:paddingLeft="5dp"
+                android:inputType="textMultiLine"
+                android:padding="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="19dp"
+                android:background="#ffffff"
+                android:text="Description"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/send_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_share"
+            android:text="Share"
+            android:textSize="20dp"
+            android:textColor="#0489F3"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prograssbarads"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_marginBottom="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

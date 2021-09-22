@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_color">#182848</color>
+    <color name="forget_color">#174971</color>
+    <color name="pharm_color">#345DA5</color>
+    <color name="blocked_color">#278AD8</color>
+    <color name="detail_color">#2f333f</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2278BC</color>
+    <color name="shfaf">#00C3C8CC</color>
+    <color name="shfaf1">#B8BCBF</color>
+    <color name="shfaf2">#AFA9A9</color>
+    <color name="info_doc">#66697C</color>
+    <color name="colorPrimaryDark">#6539ba</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgBottomNavigation">#9C9EA1</color>
+</resources>

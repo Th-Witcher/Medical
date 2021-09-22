@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".patient_adapt.find_doctor.DoctorFragment"
+    android:orientation="vertical"
+    android:id="@+id/frame_find"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Your Doctor"
+        android:textSize="26dp"
+        android:textColor="#0B7CD6"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_search_doctor"
+        android:drawableLeft="@drawable/search"
+        android:hint="Search"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:id="@+id/textsearch"
+        android:elevation="9dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cairo"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext1"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giza"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext2"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ismailia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext3"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aswan"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext4"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assiut"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext5"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luxor"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext6"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Sea"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext7"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al-Buhaira"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext8"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beni Suef"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext9"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port Said"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext10"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="South Sinai"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext11"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alexandria"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext12"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dakahlia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext13"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Damietta"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext14"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sohag"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext15"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suez"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext16"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sharqia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext18"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gharbia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext19"
+            android:background="?attr/selectableItemBackground"/>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faiyum"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext20"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qalyubia"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext21"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qena"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext22"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kafr El Sheikh"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext23"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North Sinai"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext24"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrouh"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext25"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al-Manzafiya"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext26"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minya"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext27"
+            android:background="?attr/selectableItemBackground"/>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="5dp"
+            android:background="#2196F3"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the new Valley"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Ontext28"
+            android:background="?attr/selectableItemBackground"/>
+    </LinearLayout>
+
+        </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="205dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="#C52F2F"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp"
+            android:id="@+id/card1"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Heart Specialist"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/heart"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="205dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp"
+            android:id="@+id/card2"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Teeth Specialist"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/teeth"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="205dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp"
+            app:cardBackgroundColor="#BD9312"
+            android:id="@+id/card3"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Dermatology Specialist"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/allergy"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="205dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="#1E72B5"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp"
+            android:id="@+id/card4"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Eyes Specialist"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/visibility"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="205dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="#2D9832"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="15dp"
+            android:id="@+id/card5"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Obstetrics and Gynecology Specialist"
+                android:layout_gravity="center_horizontal"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fetus"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/bottom_sheet"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

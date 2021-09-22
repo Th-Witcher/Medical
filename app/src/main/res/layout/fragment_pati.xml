@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regist.PatiFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativepatient"
+        android:background="@drawable/background_clinic"
+       >
+
+        <RelativeLayout
+            android:id="@+id/rely1patient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/patient_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Patient Registration"
+                android:textColor="#FBF8F8"
+                android:textSize="25dp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ely2patient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rely1patient"
+            android:layout_centerHorizontal="true">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientfirstname"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="First Name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientlastname"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Last Name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientemail"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="E-mail"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <Spinner
+                        android:id="@+id/patientgender"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:entries="@array/gender"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:popupBackground="#4b6cb7"
+                        android:textColorHint="#FFFFFF" />
+
+                    <Spinner
+                        android:id="@+id/socialstate"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:entries="@array/state"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:popupBackground="#4b6cb7"
+                        android:textColorHint="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/birthdatepatient"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center|center_vertical"
+                        android:hint="Birth Date"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF"
+                        android:textSize="20dp"
+                        android:clickable="true"/>
+
+                    <EditText
+                        android:id="@+id/pat_num"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Phone_Number"
+                        android:inputType="numberSigned"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/jobtitle"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Jop Title"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <Spinner
+                        android:id="@+id/patientcity"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:paddingLeft="15dp"
+                        android:popupBackground="#4b6cb7"
+                        android:textColorHint="#FFFFFF" />
+
+
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passpatient"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Password"
+                        android:inputType="text"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/confirmpatient"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Confirm Password"
+                        android:inputType="text"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <Button
+                        android:id="@+id/loginpatient"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/round_bottun"
+                        android:focusableInTouchMode="false"
+                        android:text="Sign In"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:layout_marginBottom="40dp"/>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </RelativeLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prograssbar3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_marginBottom="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

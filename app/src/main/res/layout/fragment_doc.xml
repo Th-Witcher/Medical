@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regist.DocFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativedoctor"
+        android:background="@drawable/background_clinic">
+
+        <RelativeLayout
+            android:id="@+id/rely1doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_doctor_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Doctor Registration"
+                android:textColor="#FBF8F8"
+                android:textSize="25dp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ely2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rely1doctor"
+            android:layout_centerHorizontal="true">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/doc_name"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/doc_mail"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="E-mail"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <EditText
+                        android:id="@+id/doc_num"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Phone_Number"
+                        android:inputType="numberSigned"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+
+
+
+                    <Spinner
+                        android:id="@+id/spin1"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:entries="@array/gender"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:popupBackground="#4b6cb7"
+                        android:textColorHint="#FFFFFF" />
+
+                    <Spinner
+                        android:id="@+id/spin2"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:paddingLeft="15dp"
+                        android:popupBackground="#4b6cb7"
+                        android:textColorHint="#FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/address_doc"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Address"
+                        android:inputType="text"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+
+                    <Spinner
+                        android:id="@+id/Specialization"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:paddingLeft="15dp"
+                        android:popupBackground="#4b6cb7"
+                        android:textColorHint="#FFFFFF" />
+
+
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/About"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Career Info"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/doc_pass"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Password"
+                        android:inputType="text"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/confirmpas_doc"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/inputbox"
+                        android:gravity="center"
+                        android:hint="Confirm Password"
+                        android:inputType="text"
+                        android:paddingLeft="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#95FFFFFF" />
+
+                    <Button
+                        android:id="@+id/sign_doc"
+                        android:layout_width="120dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/round_bottun"
+                        android:focusableInTouchMode="false"
+                        android:text="sign up"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:onClick="registdoctor"
+                        android:layout_marginBottom="40dp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </RelativeLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prograssbar2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_marginBottom="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

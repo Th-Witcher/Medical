@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".Doctor.Add_Rosheth.RoshthFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="@color/shfaf"
+        android:id="@+id/back_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rosheth"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginLeft="100dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/p1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="#ffffff"
+                    android:text="Disease Name"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#ffffff"
+                    android:text="State Description"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="400dp"
+                android:layout_height="3dp"
+                android:background="#3F51B5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:background="#ffffff"
+                    android:text="Medican Name 1"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="14dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#ffffff"
+                    android:text="Usage"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="3dp"
+                android:background="#3F51B5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:background="#ffffff"
+                    android:text="Medican Name 2"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="14dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#ffffff"
+                    android:text="Usage"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="3dp"
+                android:background="#3F51B5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+                    android:background="#ffffff"
+                    android:text="Medican Name 3"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="14dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#ffffff"
+                    android:text="Usage"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="400dp"
+                android:layout_height="3dp"
+                android:background="#3F51B5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#ffffff"
+                    android:text="Required Analysis"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/p10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/boarder_rosheth"
+                    android:paddingLeft="5dp"
+                    android:padding="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#ffffff"
+                    android:text="Required Rays"
+                    android:textColor="#FF5722"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

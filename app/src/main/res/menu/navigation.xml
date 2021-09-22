@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_blocked"
+        android:icon="@drawable/ic_blocked"
+        android:title="Blocked" />
+
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_pharmacy_icon"
+        android:title="Pharmacy" />
+
+    <item
+        android:id="@+id/navigation_doctors"
+        android:icon="@drawable/ic_doctor"
+        android:title="Doctors" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile" />
+    
+
+</menu>
